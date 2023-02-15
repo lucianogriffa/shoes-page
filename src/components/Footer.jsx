@@ -1,0 +1,24 @@
+import React from 'react'
+// Images
+import github from '../assets/icons/github.png'
+import twitter from '../assets/icons/twitter.png'
+import linkedin from '../assets/icons/linkedin.png'
+import youtube from '../assets/icons/youtube.png'
+// Styles 
+import './styles.css'
+const Footer = () => {
+  return (
+    <footer className='footer'>
+      <div className='footer__div'>
+        <a href="https://github.com/lucianogriffa"><img src={github} alt="instagram" className='footer__rs' /></a>
+        <a href="https://www.linkedin.com/in/lucianogriffa/"><img src={linkedin} alt="instagram" className='footer__rs' /></a>
+        <a href="https://twitter.com/lucianogriffa_"><img src={twitter} alt="twitter" className='footer__rs' /></a>
+        <a href="https://www.youtube.com/@lucianogriffa"><img src={youtube} alt="youtube" className='footer__rs' /></a>
+      </div>
+      <div className='footer__div'>
+        <a className='footer__p' href='/'>| © 2023 | By Luciano Griffa</a>
+      </div>
+    </footer>
+  )
+}
+export default Footer

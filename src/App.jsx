@@ -1,9 +1,10 @@
-import TopPage from "./containers/TopPage";
-
+import Footer from "./components/Footer";
+import Page from "./components/Page";
 function App() {
   return (
     <div>
-      <TopPage/>
+      <Page/>
+      <Footer/>
     </div>
   );
 }
