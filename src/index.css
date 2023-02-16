@@ -6,3 +6,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f6f6f6;
 }
+/* Para navegadores basados en webkit, como Chrome o Safari */
+::-webkit-selection {
+  background-color: #fcbb23;
+}
+::selection {
+  background-color: #231F20;
+  color: #fcbb23;
+}

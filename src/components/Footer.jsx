@@ -15,8 +15,8 @@ const Footer = () => {
         <a href="https://twitter.com/lucianogriffa_"><img src={twitter} alt="twitter" className='footer__rs' /></a>
         <a href="https://www.youtube.com/@lucianogriffa"><img src={youtube} alt="youtube" className='footer__rs' /></a>
       </div>
-      <div className='footer__div'>
-        <a className='footer__p' href='/'>| © 2023 | By Luciano Griffa</a>
+      <div className='footer__div'>|
+        <a className='footer__p' href='/'>By Luciano Griffa &copy; 2023 </a>
       </div>
     </footer>
   )
