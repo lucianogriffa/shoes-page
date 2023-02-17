@@ -10,10 +10,10 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer__div'>
-        <a href="https://github.com/lucianogriffa"><img src={github} alt="instagram" className='footer__rs' /></a>
-        <a href="https://www.linkedin.com/in/lucianogriffa/"><img src={linkedin} alt="instagram" className='footer__rs' /></a>
-        <a href="https://twitter.com/lucianogriffa_"><img src={twitter} alt="twitter" className='footer__rs' /></a>
-        <a href="https://www.youtube.com/@lucianogriffa"><img src={youtube} alt="youtube" className='footer__rs' /></a>
+        <a href="https://github.com/lucianogriffa" target='_blank'><img src={github} alt="instagram" className='footer__rs' /></a>
+        <a href="https://www.linkedin.com/in/lucianogriffa/" target='_blank'><img src={linkedin} alt="instagram" className='footer__rs' /></a>
+        <a href="https://twitter.com/lucianogriffa_" target='_blank'><img src={twitter} alt="twitter" className='footer__rs' /></a>
+        <a href="https://www.youtube.com/@lucianogriffa" target='_blank'><img src={youtube} alt="youtube" className='footer__rs' /></a>
       </div>
       <div className='footer__div'>|
         <a className='footer__p' href='/'>By Luciano Griffa &copy; 2023 </a>
